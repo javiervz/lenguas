@@ -2,6 +2,6 @@
 ## Relaciones entre entropía y vitalidad de lenguas. 
 
 
-* [Entropía](./map_entropy.html)
+* [Entropía](./map_entropy_glottolog.html)
 
 * [Vitalidad](./map_entropy_glottolog.html)
