@@ -13,6 +13,8 @@ xxx
 
 * [Entropía](./map_entropy.html)
 
+* [Número de casos](./map_entropy.html) (rasgo 49A de [WALS](https://wals.info/))
+
 * [Vitalidad](./map_glottolog.html) de todas las lenguas de [Glottolog](https://glottolog.org/)
 
 * [Vitalidad](./map_entropy_glottolog.html)
