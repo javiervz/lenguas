@@ -4,6 +4,6 @@
 
 * [Entropía](./map_entropy.html)
 
-* [Vitalidad de todas las lenguas de Glottolog](./map_glottolog.html)
+* [Vitalidad](./map_glottolog.html) de todas las lenguas de [Glottolog](https://glottolog.org/)
 
 * [Vitalidad](./map_entropy_glottolog.html)
