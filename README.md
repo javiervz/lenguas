@@ -1,5 +1,5 @@
 # Mapas de lenguas del mundo :)
-## Relaciones entre entropía y vitalidad de lenguas. 
+## Nos proponemos describir las relaciones entre complejidad morfológica y vitalidad en lenguas del mundo. Para aproximarnos a diferencias en las maneras de codificar la morfología, usamos la [entropía](http://www.christianbentz.de/Papers/Bentz%20et%20al.%20(2017)%20The%20entropy%20of%20words.pdf)  
 
 
 * [Entropía](./map_entropy.html)
