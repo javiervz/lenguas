@@ -23,4 +23,4 @@ xxx
 ## Algunas figuras!
 
 Reference-style: 
-![Drag Racing](./vitality.jpg)
+![Número de lenguas](https://github.com/javiervz/lenguas/blob/master/vitality.jpg)
