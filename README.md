@@ -23,4 +23,4 @@ xxx
 ## Algunas figuras!
 
 Reference-style: 
-![Número de lenguas](https://raw.githubusercontent.com//javiervz/lenguas/blob/master/vitality.jpg)
+![Número de lenguas](https://raw.githubusercontent.com/javiervz/lenguas/blob/master/vitality.jpg)
