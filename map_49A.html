@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_36ac3049dba046019d826cc0584f1328 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_36ac3049dba046019d826cc0584f1328" ></div>
+        
+    
+<!-- Based on the template from here: https://nbviewer.jupyter.org/gist/talbertc-usgs/18f8901fc98f109f2b71156cf3ac81cd -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+  <script>
+    $(function(){
+        $("#maplegend1").draggable({
+            start: function (event, ui) {
+                $(this).css({
+                    right: "auto",
+                    top: "auto",
+                    bottom: "auto"
+                });
+            }
+        });
+    });
+  </script>
+</head>
+<body>
+
+
+<div id='maplegend1' class='maplegend' 
+    style='position: absolute; z-index:9999; border:2px solid grey; background-color:rgba(255, 255, 255, 0.8);
+     border-radius:6px; padding: 10px; font-size:14px; top: 20px; left: 40%;'>
+
+
+<div class='legend-title'>Large case systems: more than 3 cases</div>
+
+</body>
+</html>
+
+<style type='text/css'>
+  .maplegend .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 90%;
+    }
+  .maplegend .legend-scale ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    float: left;
+    list-style: none;
+    }
+  .maplegend .legend-scale ul li {
+    font-size: 80%;
+    list-style: none;
+    margin-left: 0;
+    line-height: 18px;
+    margin-bottom: 2px;
+    }
+  .maplegend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 0;
+    
+    border: 1px solid #999;
+    
+    }
+  .maplegend .legend-source {
+    font-size: 80%;
+    color: #777;
+    clear: both;
+    }
+  .maplegend a {
+    color: #777;
+    }
+</style>
+</body>
+<script>    
+    
+            var map_36ac3049dba046019d826cc0584f1328 = L.map(
+                "map_36ac3049dba046019d826cc0584f1328",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_36ac3049dba046019d826cc0584f1328);
+
+            
+
+        
+    
+            var tile_layer_65c41050434b4f04b32d7946206edc40 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_36ac3049dba046019d826cc0584f1328);
+        
+    
+            var heat_map_7d84c26fd55b46e1b413cce505675b1b = L.heatLayer(
+                [[43.0, 143.0], [-4.66666666667, 143.33333333299998], [41.0, 20.0], [-10.5, -75.4166666667], [-9.0, -67.0], [-2.0, -75.1666666667], [-12.333333333299999, -67.75], [40.0, 45.0], [1.5, -78.25], [-17.0, -69.0], [43.0, -3.0], [22.5, 92.25], [22.3333333333, 91.8333333333], [28.5, 67.0], [9.416666666669999, -83.0], [21.0, 96.0], [36.5, 74.5], [33.5, -116.25], [-13.5, -65.5], [67.0, -173.0], [55.5, 47.5], [43.5, -124.166666667], [54.0, -110.0], [-10.0, 149.33333333299998], [-4.33333333333, 138.83333333299998], [-17.8333333333, 145.58333333299998], [-3.83333333333, 135.5], [3.0, -77.0], [59.0, 26.0], [56.0, 125.0], [62.0, 25.0], [13.5, 25.0], [25.6666666667, 90.5], [42.0, 44.0], [52.0, 10.0], [7.0, 35.75], [-18.3333333333, 126.333333333], [64.0, -51.0], [-7.5, 146.25], [-6.333333333330001, 145.33333333299998], [-0.33333333333299997, -74.0], [47.0, 20.0], [42.1666666667, 46.25], [65.0, -17.0], [10.6666666667, -73.75], [-3.33333333333, 141.16666666700002], [43.1666666667, 45.0833333333], [-4.0, 35.5], [37.0, 140.0], [-10.116666666699999, 142.116666667], [48.0, -117.0], [14.0, 76.0], [12.0, 13.0], [34.0, 76.0], [-17.05, 139.5], [9.833333333330001, 15.083333333299999], [64.0, 87.0], [-6.5, 143.83333333299998], [47.0, 105.0], [37.0, -99.0], [34.8333333333, -85.1666666667], [37.5, 128.0], [10.5, 30.0], [14.5, 37.0], [34.0, 78.0], [42.1666666667, 47.1666666667], [57.0, 24.0], [41.6666666667, 47.8333333333], [55.0, 24.0], [-13.416666666700001, 130.41666666700002], [10.0, 76.5], [-14.666666666700001, 133.5], [-13.666666666700001, 130.0], [19.0, 76.0], [33.1666666667, -113.166666667], [-20.8333333333, 116.5], [24.75, 94.0], [37.5, -120.0], [53.0, 45.5], [23.0, 84.6666666667], [6.5, 33.5], [70.0, 76.0], [46.0, -116.0], [-31.75, 145.5], [53.3333333333, 142.0], [18.25, 30.75], [-13.75, 135.66666666700002], [9.0, 42.0], [45.0, -67.0], [-7.0, -62.0], [-26.0, 130.0], [52.0, 20.0], [39.0, -122.5], [2.66666666667, -76.0], [0.33333333333299997, -78.0], [11.75, -83.75], [45.0, 21.0], [56.0, 38.0], [69.0, 24.0], [-53.0, -70.0], [44.0, 19.0], [-7.5, -75.0], [7.0, 80.5], [-7.75, 147.55], [11.5, -5.583333333330001], [59.0, -135.0], [11.416666666700001, 76.75], [-11.916666666700001, -53.5833333333], [32.6666666667, -91.0], [3.0, 35.5], [39.0, 35.0], [47.6666666667, 136.25], [57.5, 52.5], [-16.3333333333, 126.0], [-4.83333333333, 145.16666666700002], [-18.6666666667, 135.75], [9.333333333330001, -61.6666666667], [-15.5, 131.0], [39.25, -120.0], [33.3333333333, -97.3333333333], [41.0, -122.5], [-3.5, -72.0], [35.4166666667, -119.0], [-17.0, 145.75], [-4.66666666667, 143.55], [35.75, -86.75], [65.75, 150.83333333299998], [59.5, -160.0], [41.3333333333, -124.0]],
+                {"blur": 15, "max": 1.0, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            ).addTo(map_36ac3049dba046019d826cc0584f1328);
+        
+</script>
