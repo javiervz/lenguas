@@ -23,6 +23,4 @@ xxx
 ## Algunas figuras!
 
 Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/javiervz/lenguas/blob/master/vitality.pdf "Logo Title Text 2"
+![Drag Racing](./vitality.pdf)
