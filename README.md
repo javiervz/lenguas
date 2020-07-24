@@ -1,6 +1,6 @@
 # Mapas de lenguas del mundo :)
 
-- Un vistazo a los contenidos!
+Un vistazo a los contenidos!
 
   * [Nuestra idea!](#nuestra-idea-)
   * [Mapas y mapas!](#mapas-y-mapas-)
