@@ -23,4 +23,4 @@ xxx
 ## Algunas figuras!
 
 Reference-style: 
-![Drag Racing](./vitality.pdf)
+![Drag Racing](./vitality.jpg)
