@@ -7,9 +7,11 @@ Un vistazo a los contenidos!
   * [Algunas figuras!](#algunas-figuras)
 
 ## Nuestra idea!
-Nos proponemos describir las relaciones entre **complejidad morfológica** y **vitalidad** en lenguas del mundo. Para aproximarnos a diferencias en las maneras de codificar la morfología, usamos la [entropía](http://www.christianbentz.de/Papers/Bentz%20et%20al.%20(2017)%20The%20entropy%20of%20words.pdf): valores extremos de esta medida, suponen una gran variedad de palabras distintas (resultado de procesos morfológicos); valores mínimos de entropía supone la existencia de menos palabras distintas. Por otro lado, la vitalidad lingüística es entendida según la escala AES (Agglomerated Endangerment Status [detalles](https://glottolog.org/glottolog/glottologinformation)), que define 6 niveles de obsolescencia creciente. Planteamos entonces la siguiente hipótesis:
+Nos proponemos describir las relaciones entre **complejidad morfológica** y **vitalidad** en lenguas del mundo. Para aproximarnos a diferencias en las maneras de codificar la morfología, usamos la [entropía](http://www.christianbentz.de/Papers/Bentz%20et%20al.%20(2017)%20The%20entropy%20of%20words.pdf): valores extremos de esta medida, suponen una gran variedad de palabras distintas (resultado de procesos morfológicos); valores mínimos de entropía supone la existencia de menos palabras distintas. Por otro lado, la vitalidad lingüística es entendida según la escala **AES** (Agglomerated Endangerment Status [detalles](https://glottolog.org/glottolog/glottologinformation)), que define 6 niveles de obsolescencia creciente. Planteamos entonces la siguiente hipótesis:
 
-* **Hipótesis (H).** xxx
+* **Hipótesis (H).** A **mayor obsolescencia** en la escala AES, observaremos **menor entropía**. 
+
+La justificación es al parecer bastante plausible: las lenguas es estado de obsolescencia evidencian procesos de pérdida de complejidad morfológica. Por ejemplo, es plausible pensar (aunque es otro contexto) que existe una disminución de entropía si comparamos el Latín con lenguas romances modernas [link a más información sobre casos y Latín](https://www.aclweb.org/anthology/W16-4125.pdf). 
 
 ## Mapas y mapas!
 xxx
