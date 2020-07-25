@@ -3,6 +3,7 @@
 Un vistazo a los contenidos!
 
   * [Nuestra idea!](#nuestra-idea)
+  * [Datos y datos!](#datos-y-datos)
   * [Mapas y mapas!](#mapas-y-mapas)
   * [Algunas figuras!](#algunas-figuras)
 
@@ -11,10 +12,19 @@ Nos proponemos describir las relaciones entre **complejidad morfológica** y **v
 
 * **Hipótesis (H).** A **mayor obsolescencia** en la escala AES, observaremos **menor entropía**. 
 
-La justificación es al parecer bastante plausible: las lenguas es estado de obsolescencia evidencian procesos de pérdida de complejidad morfológica. Por ejemplo, es plausible pensar (aunque es otro contexto) que existe una disminución de entropía si comparamos el Latín con lenguas romances modernas [link a más información sobre casos y Latín](https://www.aclweb.org/anthology/W16-4125.pdf). 
+La justificación es al parecer bastante plausible: las lenguas obsolescentes evidencian procesos de pérdida de complejidad morfológica. Por ejemplo,(aunque es otro contexto) existe una disminución de entropía si comparamos el Latín con lenguas romances modernas [link a más información sobre casos y Latín](https://www.aclweb.org/anthology/W16-4125.pdf). 
+
+## Datos y datos!
+
+Utilizamos diversas fuentes de datos:
+
+* xxxx
+* xxxx
+* xxxx
 
 ## Mapas y mapas!
-xxx
+
+En esta sección, usamos la famosa librería [lingtypology](https://github.com/OneAdder/lingtypology) para mostrar resultados a través de mapas. 
 
 * [Entropía](./map_entropy.html)
 
