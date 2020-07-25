@@ -1,4 +1,4 @@
-# Mapas de lenguas del mundo :)
+# Entropía, obsolescencia y mapas de lenguas del mundo :)
 
 Un vistazo a los contenidos!
 
@@ -20,19 +20,19 @@ Utilizamos diversas fuentes de datos:
 
 * **Datos de entropía para 1259 lenguas** calculados por [paper interesante](http://www.christianbentz.de/Papers/Bentz%20et%20al.%20(2017)%20The%20entropy%20of%20words.pdf). Estos datos son abiertos y pueden obtenerse de [datos entropía](http://www.christianbentz.de/publications.html).
 * **Datos sobre obsolescencia:** usamos la información proporcionada por [Glottolog](https://glottolog.org/meta/downloads). 
-* **WALS:** para acceder a los rasgos de esta base de datos, utilizamos [lingtypology](https://github.com/OneAdder/lingtypology)
+* **WALS:** para acceder a los rasgos de esta base de datos, utilizamos [lingtypology](https://github.com/OneAdder/lingtypology). En general esta base de datos es __sparse__, por lo que posee una gran cantidad de rasgos para los cuales no hay información. 
 
 ## Mapas y mapas!
 
 En esta sección, usamos la famosa librería [lingtypology](https://github.com/OneAdder/lingtypology) para mostrar resultados a través de mapas. 
 
-* [Entropía](./map_entropy.html). En este mapa, dividimos los valores de entropía en 3: **high**, **middle**, **low**. El nivel **middle** se define como los valores que se encuentran a 1 desviación estándar (o menos) del promedio. Es interesante notar, por ejemplo, la **alta entropía de lenguas andinas**. 
+* [Entropía](./map_entropy.html). En este mapa, dividimos los valores de entropía en 3: **high**, **middle**, **low**. La muestra incluye datos para **1245 lenguas**. El nivel **middle** se define como los valores que se encuentran a 1 desviación estándar (o menos) del promedio. Es interesante notar, por ejemplo, la **alta entropía de lenguas andinas**. 
 
-* [Número de casos](./map_entropy.html) (rasgo 49A de [WALS](https://wals.info/))
+* [Número de casos](./map_entropy.html) (rasgo 49A de [WALS](https://wals.info/)). El **rasgo 49A de WALS** cuenta el número de casos. ¿Existe una relación entre número de casos y entropía? 
 
-* [Vitalidad](./map_glottolog.html) de todas las lenguas de [Glottolog](https://glottolog.org/)
+* [Vitalidad para todas las lenguas en Glottolog](./map_glottolog.html). En este mapa, se incluyen todas las lenguas de Glottolog [https://glottolog.org], para las que existe información sobre la escala **AES**: 7831 lenguas :)
 
-* [Vitalidad](./map_entropy_glottolog.html)
+* [Vitalidad para las lenguas donde tenemos información de entropía](./map_entropy_glottolog.html). Aquí, fundimos los datos sobre **entropía** y la escala **AES**. Presentamos entonces la **vitalidad** para 1245 lenguas.  
 
 ## Algunas figuras!
 
