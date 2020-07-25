@@ -22,5 +22,5 @@ xxx
 
 ## Algunas figuras!
 
-Reference-style: 
+* Número de lenguas según grado de vitalidad :)
 ![Número de lenguas](https://github.com/javiervz/lenguas/blob/master/vitality.jpg?raw=true)
