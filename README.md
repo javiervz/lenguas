@@ -44,3 +44,6 @@ En esta sección, usamos la famosa librería [lingtypology](https://github.com/O
 
 3. **Entropía versus vitalidad (conjunto restringido de lenguas).** xxx
 ![Entropía vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitalityvsentropy.jpg?raw=true)
+
+4. **Entropía versus vitalidad (lenguas de Sudamérica).** xxx
+![Entropía vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitalityvsentropySA.jpg?raw=true)
