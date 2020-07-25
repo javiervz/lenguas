@@ -18,7 +18,7 @@ La justificación es al parecer bastante plausible: las lenguas obsolescentes ev
 
 Utilizamos diversas fuentes de datos:
 
-* xxxx
+* Datos de entropía para 1259 lenguas calculados por [paper interesante](http://www.christianbentz.de/Papers/Bentz%20et%20al.%20(2017)%20The%20entropy%20of%20words.pdf). Estos datos son abiertos y pueden obtenerse de [datos entropía](http://www.christianbentz.de/publications.html).
 * xxxx
 * xxxx
 
