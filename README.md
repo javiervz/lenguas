@@ -30,11 +30,11 @@ En esta sección, usamos la famosa librería [lingtypology](https://github.com/O
 
 * [Número de casos](./map_entropy.html) (rasgo 49A de [WALS](https://wals.info/)). El **rasgo 49A de WALS** cuenta el número de casos. ¿Existe una relación entre número de casos y entropía? 
 
-* [Vitalidad para todas las lenguas en Glottolog](./map_glottolog.html). En este mapa, se incluyen todas las lenguas de Glottolog [https://glottolog.org], para las que existe información sobre la escala **AES**: 7831 lenguas :)
+* [Vitalidad para todas las lenguas en Glottolog](./map_glottolog.html). En este mapa, se incluyen todas las lenguas de [Glottolog](https://glottolog.org), para las que existe información sobre la escala **AES**: 7831 lenguas :)
 
 * [Vitalidad para las lenguas donde tenemos información de entropía](./map_entropy_glottolog.html). Aquí, fundimos los datos sobre **entropía** y la escala **AES**. Presentamos entonces la **vitalidad** para 1245 lenguas.  
 
 ## Resultados en forma de figura!
 
-* Número de lenguas según grado de vitalidad :)
+1. **Número de lenguas según grado de vitalidad.** Para la muestra de 1245 lenguas, el eje **vitality** indica un grado creciente de obsolescencia, desde **safe** hasta **extinct**. El eje **percentage of languages** indica la proporción de lenguas que se encuentra es un estado específico de vitalidad. Desde [Glottolog](https://glottolog.org]) extraemos la información de **macroareas lingüísticas.** 
 ![Número de lenguas](https://github.com/javiervz/lenguas/blob/master/vitality.jpg?raw=true)
