@@ -45,5 +45,8 @@ En esta sección, usamos la famosa librería [lingtypology](https://github.com/O
 3. **Entropía versus vitalidad (conjunto restringido de lenguas).** Para la muestra de **1245 lenguas** (para las que tenemos valores de **entropía**), mostramos la relación entre **vitality** y **entropía**. La línea **roja** indica una regresión lineal. 
 ![Entropía vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitalityvsentropy.jpg?raw=true)
 
-4. **Entropía versus vitalidad (lenguas de Sudamérica).** De la muestra de **1245 lenguas** extraemos las lenguas de **Sudamérica** (165 lenguas), mostramos la relación entre **vitality** y **entropía**. La línea **roja** indica una regresión lineal. 
+4. **Entropía versus vitalidad (lenguas de Sudamérica).** De la muestra de **1245 lenguas** extraemos las lenguas de **Norte América + Sudamérica** (346 lenguas), mostramos la relación entre **vitality** y **entropía**. La línea **roja** indica una regresión lineal. 
+![Entropía vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitalityvsentropySANA.jpg?raw=true)
+
+5. **Entropía versus vitalidad (lenguas de Sudamérica).** De la muestra de **1245 lenguas** extraemos las lenguas de **Sudamérica** (165 lenguas), mostramos la relación entre **vitality** y **entropía**. La línea **roja** indica una regresión lineal. 
 ![Entropía vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitalityvsentropySA.jpg?raw=true)
