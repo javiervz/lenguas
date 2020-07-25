@@ -5,7 +5,7 @@ Un vistazo a los contenidos!
   * [Nuestra idea!](#nuestra-idea)
   * [Datos y datos!](#datos-y-datos)
   * [Mapas y mapas!](#mapas-y-mapas)
-  * [Algunas figuras!](#algunas-figuras)
+  * [Resultados en forma de figura!](#resultados-en-forma-de-figura)
 
 ## Nuestra idea!
 Nos proponemos describir las relaciones entre **complejidad morfológica** y **vitalidad** en lenguas del mundo. Para aproximarnos a diferencias en las maneras de codificar la morfología, usamos la [entropía](http://www.christianbentz.de/Papers/Bentz%20et%20al.%20(2017)%20The%20entropy%20of%20words.pdf): valores extremos de esta medida, suponen una gran variedad de palabras distintas (resultado de procesos morfológicos); valores mínimos de entropía supone la existencia de menos palabras distintas. Por otro lado, la vitalidad lingüística es entendida según la escala **AES** (Agglomerated Endangerment Status [detalles](https://glottolog.org/glottolog/glottologinformation)), que define 6 niveles de obsolescencia creciente. Planteamos entonces la siguiente hipótesis:
@@ -34,7 +34,7 @@ En esta sección, usamos la famosa librería [lingtypology](https://github.com/O
 
 * [Vitalidad para las lenguas donde tenemos información de entropía](./map_entropy_glottolog.html). Aquí, fundimos los datos sobre **entropía** y la escala **AES**. Presentamos entonces la **vitalidad** para 1245 lenguas.  
 
-## Algunas figuras!
+## Resultados en forma de figura!
 
 * Número de lenguas según grado de vitalidad :)
 ![Número de lenguas](https://github.com/javiervz/lenguas/blob/master/vitality.jpg?raw=true)
