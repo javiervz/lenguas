@@ -41,3 +41,6 @@ En esta sección, usamos la famosa librería [lingtypology](https://github.com/O
 
 2. **Número de lenguas según grado de vitalidad (conjunto restringido de lenguas).** Para la muestra de **1245 lenguas** (para las que tenemos valores de **entropía**), mostramos la relación entre **vitality** y **percentage of languages**. Notemos la disminución (con respecto a la figura anterior) del número de lenguas en estado **extinct**, y al mismo tiempo el aumento de lenguas en estado **vulnerable** y **definitely endangered.**
 ![Número de lenguas vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitality_entropy.jpg?raw=true)
+
+3. **Entropía versus vitalidad (conjunto restringido de lenguas).** xxx
+![Entropía vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitalityvsentropy.jpg?raw=true)
