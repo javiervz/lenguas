@@ -37,7 +37,7 @@ En esta sección, usamos la famosa librería [lingtypology](https://github.com/O
 ## Resultados en forma de figura!
 
 1. **Número de lenguas según grado de vitalidad.** Para la muestra de **7831 lenguas**, el eje **vitality** indica un grado creciente de obsolescencia, desde **safe** hasta **extinct**. El eje **percentage of languages** indica la proporción de lenguas que se encuentra es un estado específico de vitalidad. Desde [Glottolog](https://glottolog.org]) extraemos la información de **macroareas lingüísticas.** 
-![Número de lenguas](https://github.com/javiervz/lenguas/blob/master/vitality.jpg?raw=true)
+![Número de lenguas vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitality.jpg?raw=true)
 
-2. **Número de lenguas según grado de vitalidad.** Para la muestra de **7831 lenguas**, el eje **vitality** indica un grado creciente de obsolescencia, desde **safe** hasta **extinct**. El eje **percentage of languages** indica la proporción de lenguas que se encuentra es un estado específico de vitalidad. Desde [Glottolog](https://glottolog.org]) extraemos la información de **macroareas lingüísticas.** 
-![Número de lenguas](https://github.com/javiervz/lenguas/blob/master/vitality_entropy.jpg?raw=true)
+2. **Número de lenguas según grado de vitalidad (conjunto restringido de lenguas).** Para la muestra de **1245 lenguas** (para las que tenemos valores de **entropía**), mostramos la relación entre **vitality** y **percentage of languages**. Notemos la disminución (con respecto a la figura anterior) del número de lenguas en estado **extinct.**
+![Número de lenguas vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitality_entropy.jpg?raw=true)
