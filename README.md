@@ -35,6 +35,7 @@ En esta sección, usamos la famosa librería [lingtypology](https://github.com/O
 * [Vitalidad para las lenguas donde tenemos información de entropía](./map_entropy_glottolog.html). Aquí, fundimos los datos sobre **entropía** y la escala **AES**. Presentamos entonces la **vitalidad** para 1245 lenguas.  
 
 ## Resultados en forma de figura!
+### **Número de lenguas según grado de vitalidad.**
 
 1. **Número de lenguas según grado de vitalidad.** Para la muestra de **7831 lenguas**, el eje **vitality** indica un grado creciente de obsolescencia, desde **safe** hasta **extinct**. El eje **percentage of languages** indica la proporción de lenguas que se encuentra es un estado específico de vitalidad. Desde [Glottolog](https://glottolog.org]) extraemos la información de **macroareas lingüísticas.** 
 ![Número de lenguas vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitality.jpg?raw=true)
@@ -42,11 +43,18 @@ En esta sección, usamos la famosa librería [lingtypology](https://github.com/O
 2. **Número de lenguas según grado de vitalidad (conjunto restringido de lenguas).** Para la muestra de **1245 lenguas** (para las que tenemos valores de **entropía**), mostramos la relación entre **vitality** y **percentage of languages**. Notemos la disminución (con respecto a la figura anterior) del número de lenguas en estado **extinct**, y al mismo tiempo el aumento de lenguas en estado **vulnerable** y **definitely endangered.**
 ![Número de lenguas vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitality_entropy.jpg?raw=true)
 
-3. **Entropía versus vitalidad (conjunto restringido de lenguas).** Para la muestra de **1245 lenguas** (para las que tenemos valores de **entropía**), mostramos la relación entre **vitality** y **entropía**. La línea **roja** indica una regresión lineal. 
+### **Entropía versus vitalidad.**
+
+3. **Entropía versus vitalidad (conjunto restringido de lenguas).** Para la muestra de **1245 lenguas** (para las que tenemos valores de **entropía**), mostramos la relación entre **vitality** y **entropy**. La línea **roja** indica una regresión lineal. 
 ![Entropía vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitalityvsentropy.jpg?raw=true)
 
-4. **Entropía versus vitalidad (lenguas de Sudamérica).** De la muestra de **1245 lenguas** extraemos las lenguas de **Norte América + Sudamérica** (346 lenguas), mostramos la relación entre **vitality** y **entropía**. La línea **roja** indica una regresión lineal. 
+4. **Entropía versus vitalidad (lenguas de Norte América + Sudamérica).** De la muestra de **1245 lenguas** extraemos las lenguas de **Norte América + Sudamérica** (346 lenguas), mostramos la relación entre **vitality** y **entropy**. La línea **roja** indica una regresión lineal. 
 ![Entropía vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitalityvsentropySANA.jpg?raw=true)
 
-5. **Entropía versus vitalidad (lenguas de Sudamérica).** De la muestra de **1245 lenguas** extraemos las lenguas de **Sudamérica** (165 lenguas), mostramos la relación entre **vitality** y **entropía**. La línea **roja** indica una regresión lineal. 
+5. **Entropía versus vitalidad (lenguas de Sudamérica).** De la muestra de **1245 lenguas** extraemos las lenguas de **Sudamérica** (165 lenguas), mostramos la relación entre **vitality** y **entropy**. La línea **roja** indica una regresión lineal. 
 ![Entropía vs vitalidad](https://github.com/javiervz/lenguas/blob/master/vitalityvsentropySA.jpg?raw=true)
+
+### **Entropía versus número de casos.**
+
+6. **Entropía versus número de casos (lenguas de Norte América + Sudamérica).** De la muestra de **1245 lenguas** extraemos las lenguas de ***Norte América + Sudamérica** (165 lenguas). Para este conjunto, buscamos las lenguas con información del número de casos en **WALS** (rasgo 49A). Esto entrega 26 lenguas (ya habíamos mencionado que esta base de datos es **sparse :(**). Mostramos la relación entre **ventropy** y **enumber of cases**. La línea **roja** indica una regresión lineal. Es interesante destacar, sin embargo, que a medidad que disminuyen los casos la **entropía** disminuye en 1 o 2 bits. 
+![Entropía vs vitalidad](https://github.com/javiervz/lenguas/blob/master/entropyvs49ASANA.jpg?raw=true)
