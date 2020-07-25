@@ -26,7 +26,7 @@ Utilizamos diversas fuentes de datos:
 
 En esta sección, usamos la famosa librería [lingtypology](https://github.com/OneAdder/lingtypology) para mostrar resultados a través de mapas. 
 
-* [Entropía](./map_entropy.html). En este mapa, dividimos los valores de entropía en 3: high, middle, low. El nivel "middle" se define como los valores que se encuentran a 1 desviación estándar (o menos) del promedio. 
+* [Entropía](./map_entropy.html). En este mapa, dividimos los valores de entropía en 3: **high**, **middle**, **low**. El nivel **middle** se define como los valores que se encuentran a 1 desviación estándar (o menos) del promedio. 
 
 * [Número de casos](./map_entropy.html) (rasgo 49A de [WALS](https://wals.info/))
 
